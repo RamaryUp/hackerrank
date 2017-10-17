@@ -1,6 +1,6 @@
 #!/bin/python3
 '''
-Hacker Ran Challenge
+HackerRank Challenge
 Name : Compare the Triplets
 Category : Algorithms
 Level : Warmup
