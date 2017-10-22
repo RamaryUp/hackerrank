@@ -31,10 +31,12 @@ Sample Output
 11
 12
 '''
+# let's play with set collections !
+
 m, set1 = int(input()), set(map(int,input().split()))
 n, set2 = int(input()), set(map(int,input().split()))
 
-syms_diff = list(set1 - set2) + list(set2 - set1)	#  set1.difference(set2) could be used
+syms_diff = list(set1 ^ set2) 	#  list(set1.difference(set2)) - list(set2.difference(set1)) could be used; or list(set1-set2) + list(set2-set1)
 syms_diff.sort()
 for item in syms_diff:
     print(item)
